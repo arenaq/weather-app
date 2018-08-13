@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4264fb</color>
+    <color name="colorPrimaryDark">#4264fb</color>
+    <color name="colorAccent">#4264fb</color>
+    <color name="white">#ffffff</color>
+    <color name="weatherInfo">#ddffffff</color>
+    <color name="weatherInfoIconColor">@color/colorPrimary</color>
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+    <color name="mapboxWhite">#ffffff</color>
+    <color name="mapboxBlue">#4264fb</color>
+    <color name="mapboxGrayLight">#c6d2e1</color>
+    <color name="weather_info_stroke">#4fa5d5</color>
+</resources>

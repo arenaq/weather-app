@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    tools:context=".feature.home.WeatherActivity">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTilt="@dimen/mapbox_camera_tilt"
+        mapbox:mapbox_cameraZoom="@dimen/mapbox_camera_initial_zoom"
+        mapbox:mapbox_cameraZoomMax="@dimen/mapbox_camera_max_zoom"
+        mapbox:mapbox_cameraZoomMin="@dimen/mapbox_camera_min_zoom"
+        mapbox:mapbox_styleUrl="mapbox://styles/arenaq/cjkocik2j8z8n2sn5cdngpaf6"
+        mapbox:mapbox_uiRotateGestures="false" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="18dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/weather_info_height"
+            android:layout_alignParentTop="true">
+
+            <RelativeLayout
+                android:id="@+id/txtWeather"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true">
+
+                <include layout="@layout/weather_info" />
+
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/btnLocate"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

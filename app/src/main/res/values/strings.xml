@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="alert_notification_dialog_title_error">Error</string>
+    <string name="alert_notification_dialog_positive_button">OK</string>
+    <string name="exitAlertMessage">Do you want to exit application?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="permissionAlertTitle">Location permissions</string>
+    <string name="permissionAlertMessage">This application needs location permissions to determine your current location. You can also request weather info on any other location you tap on the map.</string>
+</resources>
