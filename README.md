@@ -2,6 +2,8 @@
 
 <img hspace="20" height="400" src="github/screenshot_praha.png" alt="Screenshot of weather in Prague"/><img  hspace="20" height="400" src="github/screenshot_turbigo.png" alt="Screenshot of weather in Italy"/><img hspace="20" height="400" src="github/screenshot_qatar.png" alt="Screenshot of weather in Qatar"/>
 
+App available in [Google Play Store](https://play.google.com/store/apps/details?id=org.kuska.spaceti.weatherapp).
+
 This repository contains the source code for the application.
 
 You will need JDK 1.8+ installed to work with it.
